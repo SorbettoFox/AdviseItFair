@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Advise It -home</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header">
+                <a href="/">
+                    <h1>
+                        Advise It
+                    </h1>
+                </a>
+                <h3>Token: <?= $token ?></h3> <!-- display current token -->
+                <a class="button" href="/" target="_blank">New Plan</a>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <!--Fall-->
+        <div class="col-md-6">
+            <span class="badge badge-default">Fall</span>
+            <div class="jumbotron">
+                <textarea name="Fall" id="Fall" cols="50" rows="6"></textarea>
+            </div>
+            <span class="badge badge-default">Winter</span>
+
+            <!--Winter-->
+            <div class="jumbotron">
+                <textarea name="Winter" id="Winter" cols="50" rows="6"></textarea>
+            </div>
+        </div>
+        <!--Spring-->
+        <div class="col-md-6">
+            <span class="badge badge-default">Spring</span>
+            <div class="jumbotron">
+                <textarea name="Spring" id="Spring" cols="50" rows="6"></textarea>
+                <!--Summer-->
+            </div>
+            <span class="badge badge-default">Summer</span>
+            <div class="jumbotron">
+                <textarea name="Summer" id="Summer" cols="50" rows="6"></textarea>
+            </div>
+
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header">
+                <h1>
+                    Advise It
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/scripts.js"></script>
+</body>
+
+</html>
