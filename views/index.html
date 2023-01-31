@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap.min.js" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 
     <title>Advise It -home</title>
 
     <meta name="description" content="Source code generated using layoutit.com">
     <meta name="author" content="LayoutIt!">
 
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
 
 </head>
 
@@ -22,13 +23,19 @@
     <div class="row">
         <div class="col-md-12">
             <div class="page-header">
-                <a href="/">
+                <a href="/untitled/">
                     <h1>
                         Advise It
                     </h1>
                 </a>
                 <h3>Token: <?= $token ?></h3> <!-- display current token -->
-                <a class="button" href="/" target="_blank">New Plan</a>
+                <a class="button" href="/untitled/" target="_blank">New Plan</a>
+
+                <form action="/submit" method="post"> <!-- Save plan to database -->
+                    <input type="submit" name="submit_button" value="Save Plan">
+                </form>
+
+
 
             </div>
         </div>
@@ -74,9 +81,9 @@
     </div>
 </div>
 
-<script src="../js/jquery.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script src="../js/scripts.js"></script>
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="scripts.js"></script>
 </body>
 
 </html>

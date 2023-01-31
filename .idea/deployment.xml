@@ -2,7 +2,7 @@
 <project version="4">
   <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="greenriverdev">
+      <paths name="fairgree">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
